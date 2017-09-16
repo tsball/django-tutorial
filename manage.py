@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 import os
 import sys
-
+# start the server: python manage.py runserver
 if __name__ == "__main__":
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "tutorial.settings")
     try:
